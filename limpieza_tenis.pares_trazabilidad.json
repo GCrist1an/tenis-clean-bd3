@@ -1,0 +1,497 @@
+[{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b1"
+  },
+  "codigoRegistro": "REG-0001",
+  "cliente": {
+    "nombre": "Laura Gómez",
+    "telefono": "3101110001"
+  },
+  "modelo": "Nike Air Force 1 blanco",
+  "marca": "Nike",
+  "tipoServicio": "limpieza_completa",
+  "estadoActual": "entregado",
+  "precio": 35000,
+  "diasEstimados": 5,
+  "entregaDomicilio": false,
+  "fechaIngreso": {
+    "$date": "2026-09-01T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-01T00:00:00.000Z"
+      },
+      "nota": "Llega con manchas en la punta"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-02T00:00:00.000Z"
+      },
+      "nota": "Limpieza completa"
+    },
+    {
+      "estado": "secado",
+      "fecha": {
+        "$date": "2026-09-04T00:00:00.000Z"
+      },
+      "nota": "Secado al aire"
+    },
+    {
+      "estado": "entregado",
+      "fecha": {
+        "$date": "2026-09-06T00:00:00.000Z"
+      },
+      "nota": "Pago en efectivo"
+    }
+  ],
+  "fotos": [
+    "REG-0001_a_antes.jpg",
+    "REG-0001_a_despues.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b2"
+  },
+  "codigoRegistro": "REG-0001",
+  "cliente": {
+    "nombre": "Laura Gómez",
+    "telefono": "3101110001"
+  },
+  "modelo": "Adidas Superstar",
+  "marca": "Adidas",
+  "tipoServicio": "limpieza_completa",
+  "estadoActual": "entregado",
+  "precio": 35000,
+  "diasEstimados": 5,
+  "entregaDomicilio": false,
+  "fechaIngreso": {
+    "$date": "2026-09-01T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-01T00:00:00.000Z"
+      },
+      "nota": "Segundo par del mismo registro"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-02T00:00:00.000Z"
+      },
+      "nota": "Limpieza completa"
+    },
+    {
+      "estado": "entregado",
+      "fecha": {
+        "$date": "2026-09-06T00:00:00.000Z"
+      },
+      "nota": "Entrega en local"
+    }
+  ],
+  "fotos": [
+    "REG-0001_b_antes.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b3"
+  },
+  "codigoRegistro": "REG-0002",
+  "cliente": {
+    "nombre": "Andrés Ríos",
+    "telefono": "3102220002"
+  },
+  "modelo": "Converse Chuck Taylor",
+  "marca": "Converse",
+  "tipoServicio": "express",
+  "estadoActual": "secado",
+  "precio": 25000,
+  "diasEstimados": 2,
+  "entregaDomicilio": false,
+  "fechaIngreso": {
+    "$date": "2026-09-28T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza_express"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-28T00:00:00.000Z"
+      },
+      "nota": "Servicio exprés 48 h"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-28T00:00:00.000Z"
+      },
+      "nota": "Limpieza rápida"
+    },
+    {
+      "estado": "secado",
+      "fecha": {
+        "$date": "2026-09-29T00:00:00.000Z"
+      },
+      "nota": "Secado en horno"
+    }
+  ],
+  "fotos": [
+    "REG-0002_antes.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b4"
+  },
+  "codigoRegistro": "REG-0003",
+  "cliente": {
+    "nombre": "Camila Torres",
+    "telefono": "3103330003"
+  },
+  "modelo": "Nike Dunk Low",
+  "marca": "Nike",
+  "tipoServicio": "premium",
+  "estadoActual": "control_calidad",
+  "precio": 90000,
+  "diasEstimados": 7,
+  "entregaDomicilio": true,
+  "fechaIngreso": {
+    "$date": "2026-09-22T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza_profunda",
+    "arreglo",
+    "pintura"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-22T00:00:00.000Z"
+      },
+      "nota": "Recogida a domicilio"
+    },
+    {
+      "estado": "diagnostico",
+      "fecha": {
+        "$date": "2026-09-23T00:00:00.000Z"
+      },
+      "nota": "Pintura descascarada y suela suelta"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-24T00:00:00.000Z"
+      },
+      "nota": "Limpieza profunda"
+    },
+    {
+      "estado": "arreglo",
+      "fecha": {
+        "$date": "2026-09-25T00:00:00.000Z"
+      },
+      "nota": "Pegado de suela"
+    },
+    {
+      "estado": "pintura",
+      "fecha": {
+        "$date": "2026-09-26T00:00:00.000Z"
+      },
+      "nota": "Retoque de pintura"
+    },
+    {
+      "estado": "secado",
+      "fecha": {
+        "$date": "2026-09-27T00:00:00.000Z"
+      },
+      "nota": "Secado 24 h"
+    },
+    {
+      "estado": "control_calidad",
+      "fecha": {
+        "$date": "2026-09-29T00:00:00.000Z"
+      },
+      "nota": "Revisión final"
+    }
+  ],
+  "fotos": [
+    "REG-0003_antes.jpg",
+    "REG-0003_diagnostico.jpg",
+    "REG-0003_pintura.jpg",
+    "REG-0003_final.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b5"
+  },
+  "codigoRegistro": "REG-0004",
+  "cliente": {
+    "nombre": "Julián Mejía",
+    "telefono": "3104440004"
+  },
+  "modelo": "Vans Old Skool",
+  "marca": "Vans",
+  "tipoServicio": "premium",
+  "estadoActual": "limpieza",
+  "precio": 100000,
+  "diasEstimados": 7,
+  "entregaDomicilio": true,
+  "fechaIngreso": {
+    "$date": "2026-09-27T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza_profunda",
+    "pegado_suela",
+    "pintura"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-27T00:00:00.000Z"
+      },
+      "nota": "Recogida a domicilio"
+    },
+    {
+      "estado": "diagnostico",
+      "fecha": {
+        "$date": "2026-09-28T00:00:00.000Z"
+      },
+      "nota": "Suela despegada"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-29T00:00:00.000Z"
+      },
+      "nota": "En limpieza profunda"
+    }
+  ],
+  "fotos": [
+    "REG-0004_antes.jpg",
+    "REG-0004_diagnostico.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b7"
+  },
+  "codigoRegistro": "REG-0006",
+  "cliente": {
+    "nombre": "Daniel Castaño",
+    "telefono": "3106660006"
+  },
+  "modelo": "Adidas Samba",
+  "marca": "Adidas",
+  "tipoServicio": "express",
+  "estadoActual": "listo_entrega",
+  "precio": 33000,
+  "diasEstimados": 2,
+  "entregaDomicilio": true,
+  "fechaIngreso": {
+    "$date": "2026-09-27T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza_express"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-27T00:00:00.000Z"
+      },
+      "nota": "Exprés"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-27T00:00:00.000Z"
+      },
+      "nota": "Limpieza rápida"
+    },
+    {
+      "estado": "secado",
+      "fecha": {
+        "$date": "2026-09-28T00:00:00.000Z"
+      },
+      "nota": "Secado"
+    },
+    {
+      "estado": "listo_entrega",
+      "fecha": {
+        "$date": "2026-09-29T00:00:00.000Z"
+      },
+      "nota": "Pendiente entrega a domicilio"
+    }
+  ],
+  "fotos": [
+    "REG-0006_antes.jpg",
+    "REG-0006_final.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b8"
+  },
+  "codigoRegistro": "REG-0007",
+  "cliente": {
+    "nombre": "Mariana Ospina",
+    "telefono": "3107770007"
+  },
+  "modelo": "New Balance 550",
+  "marca": "New Balance",
+  "tipoServicio": "premium",
+  "estadoActual": "diagnostico",
+  "precio": 120000,
+  "diasEstimados": 7,
+  "entregaDomicilio": false,
+  "fechaIngreso": {
+    "$date": "2026-09-29T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza_profunda",
+    "arreglo",
+    "restauracion_suela"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-29T00:00:00.000Z"
+      },
+      "nota": "Suela amarillenta y agrietada"
+    },
+    {
+      "estado": "diagnostico",
+      "fecha": {
+        "$date": "2026-09-30T00:00:00.000Z"
+      },
+      "nota": "Requiere restauración de suela"
+    }
+  ],
+  "fotos": [
+    "REG-0007_antes.jpg",
+    "REG-0007_suela.jpg",
+    "REG-0007_detalle.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041b9"
+  },
+  "codigoRegistro": "REG-0008",
+  "cliente": {
+    "nombre": "Esteban Valencia",
+    "telefono": "3108880008"
+  },
+  "modelo": "Nike Air Max 90",
+  "marca": "Nike",
+  "tipoServicio": "limpieza_completa",
+  "estadoActual": "secado",
+  "precio": 50000,
+  "diasEstimados": 4,
+  "entregaDomicilio": true,
+  "fechaIngreso": {
+    "$date": "2026-09-26T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza",
+    "arreglo"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-26T00:00:00.000Z"
+      },
+      "nota": "Cordones rotos"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-27T00:00:00.000Z"
+      },
+      "nota": "Limpieza completa"
+    },
+    {
+      "estado": "arreglo",
+      "fecha": {
+        "$date": "2026-09-28T00:00:00.000Z"
+      },
+      "nota": "Cambio de cordones"
+    },
+    {
+      "estado": "secado",
+      "fecha": {
+        "$date": "2026-09-29T00:00:00.000Z"
+      },
+      "nota": "Secado"
+    }
+  ],
+  "fotos": [
+    "REG-0008_antes.jpg",
+    "REG-0008_despues.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6abddb78f31e38d365b041ba"
+  },
+  "codigoRegistro": "REG-0009",
+  "cliente": {
+    "nombre": "Paula Herrera",
+    "telefono": "3109990009"
+  },
+  "modelo": "Converse All Star Hi",
+  "marca": "Converse",
+  "tipoServicio": "express",
+  "estadoActual": "entregado",
+  "precio": 0,
+  "diasEstimados": 2,
+  "entregaDomicilio": false,
+  "fechaIngreso": {
+    "$date": "2026-09-15T00:00:00.000Z"
+  },
+  "actividades": [
+    "limpieza_express"
+  ],
+  "eventos": [
+    {
+      "estado": "recibido",
+      "fecha": {
+        "$date": "2026-09-15T00:00:00.000Z"
+      },
+      "nota": "Reproceso por garantía (sin costo)"
+    },
+    {
+      "estado": "limpieza",
+      "fecha": {
+        "$date": "2026-09-15T00:00:00.000Z"
+      },
+      "nota": "Segunda limpieza"
+    },
+    {
+      "estado": "entregado",
+      "fecha": {
+        "$date": "2026-09-17T00:00:00.000Z"
+      },
+      "nota": "Sin cobro"
+    }
+  ],
+  "fotos": []
+}]
